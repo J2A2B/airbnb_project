@@ -17,6 +17,9 @@
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: 50px;
+		margin-right: 30px;
+		margin-left: 30px;
+
 		
 	}
 
@@ -150,7 +153,7 @@
 		color: white;
 	}
 
-		.section1 .ilieu-s1 h1{
+		.section1 .milieu-s1 h1{
 			color: white;
 			font-size: 60px;
 			margin-bottom: 10px;
@@ -758,13 +761,17 @@
 			}
 
 
+footer{
+	background-color: rgb(43,45,46);
+}
+
 	footer .footer2{
 		background-color: rgb(43,45,46);
 		padding-top: 20px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items:center;
+		align-items:flex-start;
 	}
 
 
@@ -810,3 +817,46 @@
 		text-decoration: none;
 		font-size: 20px;
 	}
+
+	#language{
+		margin-right:20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 30px;
+	}
+
+	#devise{
+		margin-right:20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 10px;
+	}
+
+.social{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.social i{
+	margin: 10px;
+	color: white;
+}
+
+.social_text{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+	.social_text p{
+	color: white;
+}
+
+	.social_text hr{
+	margin-bottom: 50px;
+	width: 900px;
+}
