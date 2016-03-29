@@ -97,7 +97,7 @@
 					}
 
 					header nav ul .li2:hover > .sous-menu{
-						visibility: visible;
+						visibility: hidden;
 					}
 
 	
