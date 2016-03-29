@@ -1,0 +1,862 @@
+
+
+	.section1{
+		background: url(../images/image-s1.jpg) no-repeat center;
+		height: 100vh;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+	}
+
+	/*MENU*/
+
+	header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		margin-right: 30px;
+		margin-left: 30px;
+
+		
+	}
+
+		header .image-s1 img{
+			margin-top: 10px;
+			height: 50%;
+			width: 50%;
+		}
+
+			header nav .menu {
+				display: flex;
+				flex-direction: row;
+				justify-content: flex-end;
+				list-style: none;
+			}
+
+
+				header nav ul .li1{
+					padding: 10px;
+				
+				}
+
+					header nav ul li a {
+						text-decoration: none;
+						color: white;
+						font-size: 14px;
+					}
+
+
+					header nav ul .li1 a{
+						border: 3px white solid;
+						border-radius: 10%;
+						padding: 5px;
+
+					}
+
+
+				header nav ul .li2 {
+					padding: 10px;
+					position: relative;
+					height: 60px;
+				}
+
+					header nav ul .li2 ul {
+						overflow: scroll;
+						height: 300px;
+						width: 320px;
+					}
+
+
+				header nav ul .li3 {
+					padding: 10px;
+				}
+
+
+				header nav ul .li4 {
+					padding: 10px;
+				}
+
+
+	/*SOUS MENU AIDE*/
+
+
+				header nav ul .li2 header{
+					width: 100%;
+					height: 1px;
+				}
+
+					header nav ul .li2 .sous-menu{
+						position: absolute;
+						right: 0;
+						margin-top: 50px;
+						background-color: white;
+						visibility: hidden;	
+					}
+
+					header nav ul .li2:hover > .sous-menu{
+						visibility: hidden;
+					}
+
+	
+
+						header nav ul .li2 ul li{
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							list-style: none;
+							height: 50px;
+
+						}
+
+						header nav ul .li2 .sous-menu form .help{
+							width: 355px;
+							height: 45px;
+							
+
+						}
+
+
+
+
+						header nav ul .li2 ul .sm2{
+							
+							background-color: lightgrey;
+
+						}
+
+
+						header nav ul .li2 ul li a{
+							color: black;
+
+						}
+
+						header nav ul .li2 .sous-menu footer {
+							color: red;
+							border-top: 1px grey solid;
+							padding-left: 40px;
+						}
+
+
+
+
+
+	/*INSCRIPTIONS MILIEU*/
+
+	.section1 .milieu-s1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+
+		.section1 .milieu-s1 h1{
+			color: white;
+			font-size: 60px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		.section1 .milieu-s1  p{
+			color: white;
+		}
+
+		.milieu-s1 button{
+			color: white;
+			background-color: rgba(255,255,255, 0.5);
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-top: 10px;
+			border: none;
+		}
+
+
+		.milieu-s1 button:hover {
+
+			background-color: rgba(122,122,122, 0.8);
+			
+		}
+
+	/*RECERCHE + CALENDRIER*/
+
+		.black-bar{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			background-color: rgba(0,0,0, 0.5);
+			padding: 30px;
+
+		}
+
+			.black-bar .depart, .arrive, .ville, button {
+				padding:10px;
+			}
+
+
+			.black-bar .ville {
+				margin-right: -6px;
+			}
+
+			.black-bar .arrive{
+				margin-right: -6px;
+			}
+
+			.black-bar  button {
+				background-color: rgb(255,90,95);
+				border: none;
+				color: white;
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+
+			.black-bar select{
+				-webkit-appearance:none;
+				padding: 10px;
+			}
+			
+	/*SECTION 2*/
+
+	.section2 {
+		background-color: rgb(237,239,237);
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+
+	.article0{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+	}
+
+		.article1{
+			display: flex;
+			justify-content: center;
+			width: 100%;
+			flex-flow: row wrap;
+			margin-right:10%; 
+			margin-left: 10%;
+			padding:50px;
+		}
+
+			.img-article1{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				background-image: url(../images/island-live-63d6819574de113f6b902493be9fdd3d.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 350px;
+				flex: 2 1;
+				min-width: 300px;
+			}
+
+
+				.img-article1 p{
+					color: white;
+					font-size: 36px;
+				}
+
+			.submit-article{
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background-color: white;
+				padding-left: 40px;
+				padding-right: 40px;
+				flex: 1 1;
+				min-width: 200px;
+				height: 350px;
+			}
+
+				.submit-article h2 {
+					color: rgb(86,90,92);
+					font-size: 24px;
+				}
+
+
+				.submit-article button{
+					background-color: rgb(255,90,95);
+					color:white;
+					border: none;
+					margin-top: 20px;
+					margin-bottom: 20px;
+				}
+
+				.submit-article p a{
+					text-decoration: none;
+					color: blue;
+				}
+
+
+/*JUSTE POUR LE WEEKEND*/
+
+
+
+
+
+	.text1 {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+
+	}
+
+
+		.text1 h2{
+			padding-top: 20px;
+	}
+
+		.text1 h2, p {
+			color: rgb(86,90,92);
+		}
+
+
+	.week-end{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		margin-top: 20px;
+		margin-right:13%; 
+		margin-left: 13%;
+	}
+
+		.lille {
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			flex: 1 1;
+			background-image: url(../images/lille.jpg);
+			min-width: 200px;
+			height: 300px;
+			width: 300px;
+			background-size: cover;
+			margin: 10px;
+
+		}
+
+		.bruxelles{
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			flex: 1 1;
+			background-image: url(../images/brx.jpg);
+			min-width: 200px;
+			height: 300px;
+			width: 300px;
+			background-size: cover;	
+			margin: 10px;
+			
+
+		}
+
+		.londres{
+			display: flex;
+			justify-content: center;
+			align-items:center;
+			flex: 1 1;
+			background-image: url(../images/londres.jpg);
+			min-width: 200px;
+			height: 300px;
+			width: 300px;
+			background-size: cover;
+			margin: 10px;		
+		}
+
+				.week-end h3{
+					color:white;
+					font-size: 28px;
+					font-weight: bold;
+				}
+
+		.button-destination{
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+			margin-bottom: 50px;
+
+		}
+
+
+
+		/*EXPLOREZ LE MONDE*/
+
+
+		.explore1{
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+			margin-right:13%; 
+			margin-left: 13%;
+
+		}
+
+			.lisbonne{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 2 1;
+				min-width: 300px;
+				background-image: url(../images/lisbonne.jpg);
+				background-size: cover;
+				height: 300px;
+				width: 600px;
+				margin-bottom: 20px;
+				margin: 10px;
+				flex-basis: 15px;
+			}
+
+
+			.rome{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 2 1;
+				min-width: 300px;
+				background-image: url(../images/rome.jpg);
+				background-size: cover;
+				height: 300px;
+				width: 600px;
+				margin-bottom: 20px;
+				margin: 10px;
+				flex-basis: 15px;
+			}
+
+			.vit-jeff{
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/11.jpg);
+				min-width: 300px;
+				height: 300px;
+				width: 300px;
+				margin: 10px;
+				background-size: cover;
+			}
+
+
+			.vit-alexis{
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/18.jpg);
+				min-width: 300px;
+				height: 300px;
+				width: 300px;
+				margin: 10px;
+				background-size: cover;
+			}
+
+				.explore1 h3{
+					color:white;
+					font-size: 28px;
+					font-weight: bold;
+					text-align: center;
+				}
+
+				.explore1 p{
+					color:white;
+					font-size: 18px;
+					text-align: center;
+					margin-top:-20px;
+	
+				}
+
+
+				.prix{
+					position: absolute;
+					bottom: 10px;
+					background-color: rgba(122,122,122, 0.8);
+				}
+
+				.prix p{
+					margin-top: 10px;
+					margin-bottom: 10px;
+					margin-right: 15px;
+					margin-left: 15px;
+				}
+
+				.jeff{
+					background-image: url(../images/jeff.jpg);
+					background-size: cover;
+					height: 60px;
+					width: 60px;
+					border: 3px white solid;
+					border-radius: 50%;
+				}
+
+				.alexis{
+					background-image: url(../images/alexis.jpg);
+					background-size: cover;
+					height: 60px;
+					width: 60px;
+					border: 3px white solid;
+					border-radius: 50%;
+				}
+
+
+		.explore2{
+			display: flex;
+			justify-content: center;
+			flex-flow: row wrap;
+			margin-right:13%; 
+			margin-left: 13%;
+		}
+
+
+			.amsterdam{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/amsterdam.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;
+				margin: 10px;
+
+
+			}
+
+
+			.new-york{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/nyc.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;	
+				margin-bottom: 10px;
+				margin: 10px;
+			}
+
+
+			.romantism{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/romantism.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;
+				margin: 10px;
+
+			}
+
+			.berlin{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/berlin.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;
+				margin: 10px;
+			}
+
+
+			.bordeaux{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/bordeaux.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;
+				margin: 10px;
+			}
+
+
+			.surf{
+				display: flex;
+				justify-content: center;
+				align-items:center;
+				flex: 1 1;
+				background-image: url(../images/surf.jpg);
+				min-width: 200px;
+				height: 300px;
+				width: 300px;
+				background-size: cover;
+				margin: 10px;
+			}
+
+
+				.explore2 h3{
+					color:white;
+					font-size: 28px;
+					font-weight: bold;
+					text-align: center;
+				}
+
+
+
+	/* CAROUSSEL*/
+
+	.section3{
+		background-image: url(../images/slider1.png);
+		height: 100vh;
+		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+		.section3 .caroussel{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 10%;
+			margin-bottom: 10%;
+		}
+
+		.section3 .caroussel h4{
+			color: white;
+			font-size: 60px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+
+		.section3 .caroussel  p{
+			color: white;
+			text-align: center;
+		}
+
+		.section3 button{
+			color: white;
+			background-color: rgba(255,255,255, 0.5);
+			padding-left: 25px;
+			padding-right: 25px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-top: 30px;
+			border: none;
+		}
+
+
+		.section3 button:hover {
+
+			background-color: rgba(122,122,122, 0.8);
+			
+		}
+
+
+		/*COMMUNAUTE*/
+
+
+	.section4-titre{
+		background-color: rgb(237,239,237);
+		padding-bottom: 30px;
+		padding-top: 30px;
+		}
+
+		.section4-titre h2{
+			color: rgb(86,90,92);
+			text-align: center;
+		}
+
+	.communaute{
+		display: flex;
+		justify-content: center;
+		flex-flow: row wrap;
+		margin-right:1%; 
+		margin-left: 1%;
+		background-color: rgb(237,239,237);
+		padding-bottom: 30px;
+	}
+
+		.communaute .create{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items:center;
+			background-image: url(../images/velo2.jpg);
+			min-width: 300px;
+			width: 300px;
+			height: 400px;
+			background-size: cover;
+			text-align: center;
+			margin: 10px;
+		}
+
+		.communaute .alicechris{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items:center;
+			background-image: url(../images/alicechris.jpg);
+			min-width: 300px;
+			width: 300px;
+			height: 400px;
+			background-size: cover;
+			text-align: center;
+			margin: 10px;
+
+		}
+
+		.communaute .entreprise{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items:center;
+			background-image: url(../images/entreprise.jpg);
+			min-width: 300px;
+			width: 300px;
+			height: 400px;
+			background-size: cover;
+			text-align: center;
+			margin: 10px;
+
+
+		}
+
+		.communaute .nina{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			align-items:center;
+			background-image: url(../images/nina.jpg);
+			min-width: 300px;
+			width: 300px;
+			height: 400px;
+			background-size: cover;
+			text-align: center;
+			margin: 10px;
+
+		}
+
+			.communaute h2{
+				color: white;
+			}
+
+			.communaute  h3{
+				color: white;
+			}
+
+			.communaute p{
+				color: white;
+				font-size: 12px;
+			}
+
+
+footer{
+	background-color: rgb(43,45,46);
+}
+
+	footer .footer2{
+		background-color: rgb(43,45,46);
+		padding-top: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items:flex-start;
+	}
+
+
+	.socity{
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		margin: 15px;
+	}
+
+	.socity a{
+		color: white;
+		text-decoration: none;
+		font-size: 14px;
+	}
+
+	.socity p{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	.socity select{
+				-webkit-appearance:none;
+				padding: 10px;
+			}
+
+	.socity{
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		margin: 15px;
+	}
+
+	.socity a{
+		color: white;
+		text-decoration: none;
+		font-size: 14px;
+	}
+
+	.socity p{
+		color: white;
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	#language{
+		margin-right:20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 30px;
+	}
+
+	#devise{
+		margin-right:20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-top: 10px;
+	}
+
+.social{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.social i{
+	margin: 10px;
+	color: white;
+}
+
+.social_text{
+	color: white;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+	.social_text p{
+	color: white;
+}
+
+	.social_text hr{
+	margin-bottom: 50px;
+	width: 900px;
+}
