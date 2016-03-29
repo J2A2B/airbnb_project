@@ -681,8 +681,6 @@
 		display: flex;
 		justify-content: center;
 		flex-flow: row wrap;
-		margin-right:1%; 
-		margin-left: 1%;
 		background-color: rgb(237,239,237);
 		padding-bottom: 30px;
 	}
